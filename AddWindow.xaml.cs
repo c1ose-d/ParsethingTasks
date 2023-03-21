@@ -9,6 +9,7 @@ namespace ParsethingTasks
         public AddWindow(string developer)
         {
             Developer = developer;
+            ComboBoxItems.Clear();
             using ParsethingContext db = new();
             foreach (Developer d in db.Developers)
             {

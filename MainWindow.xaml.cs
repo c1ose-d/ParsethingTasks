@@ -10,6 +10,7 @@ namespace ParsethingTasks
         public MainWindow()
         {
             using ParsethingContext db = new();
+            ComboBoxItems.Clear();
             foreach (Developer developer in db.Developers)
             {
                 ComboBoxItems.Add(new() { Content = developer.FullName });
@@ -40,10 +41,14 @@ namespace ParsethingTasks
 
         private void Add_Click(object sender, RoutedEventArgs e)
         {
-            if (ComboBox.SelectedItem != null)
+            try
             {
-                new AddWindow(((ComboBoxItem)ComboBox.SelectedItem).Content.ToString()).Show();
+                if (ComboBox.SelectedItem != null)
+                {
+                    new AddWindow(((ComboBoxItem)ComboBox.SelectedItem).Content.ToString()).Show();
+                }
             }
+            catch { }
         }
 
         private void Send_Click(object sender, RoutedEventArgs e)
