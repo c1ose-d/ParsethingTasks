@@ -22,11 +22,6 @@ namespace ParsethingTasks
             My.ItemsSource = MyItems;
         }
 
-        private void Window_Loaded(object sender, RoutedEventArgs e)
-        {
-
-        }
-
         private void ComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             GetMeItems();
@@ -43,12 +38,15 @@ namespace ParsethingTasks
         {
             try
             {
+                AddWindow add = new(((ComboBoxItem)ComboBox.SelectedItem).Content.ToString());
                 if (ComboBox.SelectedItem != null)
                 {
-                    new AddWindow(((ComboBoxItem)ComboBox.SelectedItem).Content.ToString()).Show();
+                    add.Show();
                 }
             }
             catch { }
+            GetMeItems();
+            GetMyItems();
         }
 
         private void Send_Click(object sender, RoutedEventArgs e)

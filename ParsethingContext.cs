@@ -40,8 +40,7 @@ public partial class ParsethingContext : DbContext
     public virtual DbSet<TimeZone> TimeZones { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-#warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
-        => optionsBuilder.UseSqlServer("Password=12357;Persist Security Info=True;User ID=33П;Initial Catalog=Parsething;Data Source=ngknn.ru;Trust Server Certificate=True");
+        => optionsBuilder.UseSqlServer("Password=Voice49:dusk;Persist Security Info=True;User ID=denzelcrocker;Initial Catalog=Parsething;Data Source=176.112.98.217, 1433;;Trust Server Certificate=True");
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
