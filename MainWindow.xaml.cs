@@ -56,7 +56,7 @@ namespace ParsethingTasks
                 using ParsethingContext db = new();
                 TaskExecutor def = db.TaskExecutors
                     .Where(te => te.Id == ((MyItem)My.SelectedItem).Id).First();
-                def.StatusId = 3;
+                def.StatusId = 2;
                 db.TaskExecutors.Update(def);
                 db.SaveChanges();
             }
