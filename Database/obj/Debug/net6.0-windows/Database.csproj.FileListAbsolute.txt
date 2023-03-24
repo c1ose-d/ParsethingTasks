@@ -1,0 +1,16 @@
+C:\Users\micha\source\repos\ParsethingTasks\Database\bin\Debug\net6.0-windows\Database.deps.json
+C:\Users\micha\source\repos\ParsethingTasks\Database\bin\Debug\net6.0-windows\Database.runtimeconfig.json
+C:\Users\micha\source\repos\ParsethingTasks\Database\bin\Debug\net6.0-windows\Database.dll
+C:\Users\micha\source\repos\ParsethingTasks\Database\bin\Debug\net6.0-windows\Database.pdb
+C:\Users\micha\source\repos\ParsethingTasks\Database\obj\Debug\net6.0-windows\Database.csproj.AssemblyReference.cache
+C:\Users\micha\source\repos\ParsethingTasks\Database\obj\Debug\net6.0-windows\Database.Properties.Resources.resources
+C:\Users\micha\source\repos\ParsethingTasks\Database\obj\Debug\net6.0-windows\Database.csproj.GenerateResource.cache
+C:\Users\micha\source\repos\ParsethingTasks\Database\obj\Debug\net6.0-windows\Database.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\micha\source\repos\ParsethingTasks\Database\obj\Debug\net6.0-windows\Database.AssemblyInfoInputs.cache
+C:\Users\micha\source\repos\ParsethingTasks\Database\obj\Debug\net6.0-windows\Database.AssemblyInfo.cs
+C:\Users\micha\source\repos\ParsethingTasks\Database\obj\Debug\net6.0-windows\Database.csproj.CoreCompileInputs.cache
+C:\Users\micha\source\repos\ParsethingTasks\Database\obj\Debug\net6.0-windows\Database.dll
+C:\Users\micha\source\repos\ParsethingTasks\Database\obj\Debug\net6.0-windows\refint\Database.dll
+C:\Users\micha\source\repos\ParsethingTasks\Database\obj\Debug\net6.0-windows\Database.pdb
+C:\Users\micha\source\repos\ParsethingTasks\Database\obj\Debug\net6.0-windows\Database.genruntimeconfig.cache
+C:\Users\micha\source\repos\ParsethingTasks\Database\obj\Debug\net6.0-windows\ref\Database.dll
